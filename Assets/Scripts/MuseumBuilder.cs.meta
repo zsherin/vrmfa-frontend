@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7e081ba3e578e9b44abb2726398735f0
+timeCreated: 1429745247
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - oneDoorRoom: {instanceID: 0}
+  - twoDoorRoom: {instanceID: 0}
+  - twoDoorCorner: {instanceID: 0}
+  - threeDoorRoom: {instanceID: 0}
+  - fourDoorRoom: {instanceID: 0}
+  - wall: {fileID: 445556, guid: b8d798987eb3a0a4b93dfed2db2a8559, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
