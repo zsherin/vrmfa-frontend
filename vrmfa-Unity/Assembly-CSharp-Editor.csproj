@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{0B3E4364-B6F6-0D0D-B6E6-A026623E28EC}</ProjectGuid>
+	<ProjectGuid>{E0DD2199-8AA6-EC71-7EF2-EE6052736B97}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -62,7 +62,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/zach/Documents/MuseumADay2/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>C:/Users/zach/Documents/MuseumADay2/vrmfa-Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -100,11 +100,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{E55AB590-C204-A723-2E7D-FD2541AA3DAB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7A671AAD-A8A1-3B0E-C0FA-3EFB5260D4EB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FF5C71AC-2B25-EA76-9AF2-00B302C36181}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{0AFF5865-133F-54A7-B1CE-3604AD0E5ADA}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{3EF2BEF2-7D04-7911-A194-3033071C0CAA}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+      <Project>{FFBE314B-7622-F355-12FD-8C8811C4A9ED}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

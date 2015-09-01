@@ -39,6 +39,10 @@ public class MuseumBuilder : MonoBehaviour {
 			yield return jsonLoad;
 			loaded = (jsonLoad.error ==null);
 		}
+		else
+		{
+			localMuseum = Resources.Load("sample_museum") as TextAsset;
+		}
 
 		//if we didn't crash, or break, or find nothing
 		if(loaded || (local && localMuseum!=null))
