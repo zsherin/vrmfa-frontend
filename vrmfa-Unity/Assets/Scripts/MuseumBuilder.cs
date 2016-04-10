@@ -87,6 +87,10 @@ public class MuseumBuilder : MonoBehaviour {
 	{
 		url = newURL;
 	}
+	public void SetLocal(bool newLocal)
+	{
+		local = newLocal;
+	}
 	// Update is called once per frame
 	void Update () {
 	
