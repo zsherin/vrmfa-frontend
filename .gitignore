@@ -1,2 +1,4 @@
 vrmfa-Unity/Library/
 vrmfa-Unity/Temp/
+vrmfa-Unity/*.csproj
+vrmfa-Unity/*.sln

@@ -13,6 +13,7 @@ public class PaintingScript : MonoBehaviour {
 		render = this.GetComponent<MeshRenderer>();
 		if(url != "")
 		{
+			Debug.Log ("hey dogg");
 			WWW www = new WWW(url);
 			yield return www;	
 			render.material.mainTexture = www.texture;

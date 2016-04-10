@@ -25,6 +25,8 @@ public class MuseumBuilder : MonoBehaviour {
 	JSONNode N;
 	//What have we made yet?
 	bool[] instantiated;
+
+	public UnityEngine.UI.Text debugText;
 	//Everything is asynchronous so that your headset freezes less on startup. It's still not amazing, but  it's alright.
 	IEnumerator Start()
 	{
@@ -46,7 +48,9 @@ public class MuseumBuilder : MonoBehaviour {
 
 		//if we didn't crash, or break, or find nothing
 		if(loaded || (local && localMuseum!=null))
-		{	//we loaded the object, now we parse it as a string
+		{	
+			debugText.text = "Museum downloaded. Now to build it";
+			//we loaded the object, now we parse it as a string
 			string jsonString;
 			if(local)
 			{
@@ -73,12 +77,16 @@ public class MuseumBuilder : MonoBehaviour {
 		}
 		else
 		{
+			debugText.text = "Shit we got an error: " + jsonLoad.error;
 			print (jsonLoad.error);
 		}
 		//InstantiateRoom (4, 90, new Vector2 (0, 0), new Vector2(0,0),new Vector2(1,1), "http://images.earthcam.com/ec_metros/ourcams/fridays.jpg");
 
 	}
-	
+	public void SetURL(string newURL)
+	{
+		url = newURL;
+	}
 	// Update is called once per frame
 	void Update () {
 	
